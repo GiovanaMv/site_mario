@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-image: url('https://i.pinimg.com/564x/f1/9e/8a/f19e8aad5ca77ee9df9f067cbd49e80d.jpg');
+    padding: 30px;
+}
+header .conteiner a {
+    color: #212627;
+    text-decoration: none;
+    font-size: large;
+}
+body {
+    background-color: rgb(107, 174, 228);
+}
+p {
+    text-align: center;
+    font-size: large;
+    
+}
+.conteiner h1 {
+    font-size: xx-large;
+    margin-left: 90px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav li {
+    display: inline;
+    margin-left: 90px;
+}
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+}
+#Jogo {
+    display: block;
+    background-image: url(https://i.pinimg.com/564x/7e/80/9c/7e809cf2d715e6529580847aa97446f9.jpg);
+    height: 500px;
+}
+ #Jogo .conteiner  {
+    padding: 270px;
+    color: azure;
+    text-align: center;
+}
+#Personagens {
+    display: flex;
+    justify-items: space-between;
+    margin-inline: 100px;
+    list-style-type: none;
+    
+}
+#Personagens img {
+    height: 300px;
+    padding-top: 20px;
+}
+ h1 {
+    color: rgb(73, 167, 73);
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+}
+.Peach h3 {
+    color: palevioletred;
+    font-size: xx-large;
+    text-align: center;
+}
+.Mario h3 {
+    color: rgb(223, 15, 15);
+    font-size: xx-large;
+    text-align: center;
+    
+}
+ .Luigi h3 {
+    color: rgb(0, 82, 0);
+    font-size: xx-large;
+    text-align: center;
+}
+.Yoshi {
+    color: rgb(81, 255, 0);
+    font-size: xx-large;
+    text-align: center;
+}
+.Goomba {
+    color: rgb(170, 68, 37);
+    font-size: xx-large;
+    text-align: center;
+}
+.Bowser {
+    color: rgb(206, 83, 1);
+    font-size: x-large;
+    text-align: center;
+}
+.social-links img {
+    height: 30px;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+#contact {
+    background-image: url('https://i.pinimg.com/originals/cc/e0/23/cce02339d610066101614f15480a792d.gif');
+    height: 350px;
+}
+#contact .conteiner {
+display: block;
+text-align: center;
+height: 20%
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-align: center;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+section h3 {
+    margin-bottom: 16px;
+}
+#contact .conteiner h2 {
+    color: azure;
+    text-align: center;
+    font-size: xx-large;
+    padding: 15px;
+}
+#contact .conteiner h3 {
+    color: rgb(240, 255, 255);
+    margin-left: 36px;
+}
+#contact .contact-methods form {
+    margin-left: 20px;
+}
+#contact p {
+    color: azure;
+}
+#contact .social-links {
+    margin-left: 45px;
+}
+form button {
+    background-color: #4ef54e;
+    color: #212627;
+    border-radius: 25px;
+    font-family: "Bungee", cursive;
+    font-weight: normal;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #fff022;
+}
+input:focus, textarea:focus {
+    outline-color:#2c60f0;
+}
+input, textarea, button {
+    font-size: large;
+    
+}
+footer {
+    background-image: url('https://i.pinimg.com/564x/f1/9e/8a/f19e8aad5ca77ee9df9f067cbd49e80d.jpg');
+    color:  #212627;
+    padding: 16px 0;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+ 
